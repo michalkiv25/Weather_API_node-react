@@ -1,0 +1,57 @@
+.side{
+    width: 700px;
+    height: 700px;
+    background-color: #F5F5F5;  
+    padding-left: 50px ;
+}
+  
+.titleApp{
+  color: #9E9E9E;
+  font-weight: normal;
+  margin: 150px 20px 85px;
+  transform: rotate(5);
+  transition: transform 2s;
+}
+  
+.lebelCity{
+  color: #9E9E9E;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.formstyle{
+  width: 500px;
+  height: 70px;
+  border-radius: 10px;
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.inputCity{
+  border: none;
+  font-size: 30px;
+  outline: none; 
+}
+
+.submitCheck{
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  margin-top: 15px;
+  background-color: #046B3B;
+  color: antiquewhite;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.submitCheck:hover,
+.submitCheck:active {
+  background-color: #03573e;
+  border-color: #03573e;
+}
+
+
+
+
+

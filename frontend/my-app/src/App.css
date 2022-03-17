@@ -1,0 +1,45 @@
+/* Components App */
+.container{
+  display: flex;
+  height: 800px;
+  align-items: center;
+  background-color: #F1F1F1;
+  justify-content: center;
+
+}
+
+.boxAll{
+  width: 1300px;
+  height: 700px;
+  border: LightGray 1px solid;
+  display: flex;
+  margin-left: 10px; 
+}
+
+/* Screen adjustment */
+@media only screen and (max-width: 1250px) {
+  .boxAll {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px 10%;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .boxAll {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .boxAll {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+
+

@@ -1,0 +1,86 @@
+.containerSideRight{
+    width: 650px;
+    height: 620px;
+    background-color: #DDE4E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  
+  .containerSmallBox{
+    width: 500px;
+    height: 550px;
+    background-color: #27737d;
+    border-radius: 95px;
+  }
+  
+  .boxParameter{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .font{
+    color:#FFFFFF ;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+  }
+   .titleName{
+     font-weight: bold;
+     font-size: 25px;
+     margin-top: 30px;
+   }
+
+   .dateWatch{
+    margin-top: 0%;
+    margin-bottom: 0%;
+   }
+  
+   .degrees{
+     font-size: 120px;
+     font-weight: bold;
+     margin-bottom: 0%;
+     height: 120px;
+   }
+
+   .titleText{
+     font-size: 25px;
+     margin-bottom: 35px;
+   }
+  
+  .tableOne{
+    margin-left: 100px;
+    margin-bottom: 25px;
+  }
+
+  .tableOne tr{
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .tableOne tr td{
+    margin-left: 30px;
+  }
+
+  
+  .tableOne th{
+    padding: 1px;
+    color: #E8F1F2;
+  }  
+
+  .tableTwo tr{
+    display: grid;
+    grid-template-columns: 80px 100px 100px 100px 100px;
+  }
+
+  .tableTwo td{
+    margin-left: 35px;
+  }
+
+
+    
